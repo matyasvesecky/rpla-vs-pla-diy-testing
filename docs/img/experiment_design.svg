@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="900" height="330" rx="12" fill="#ffffff"/>
+  <text x="30" y="40" font-size="20" font-weight="600" fill="#1f2937">Full factorial design: 2 materials × 3 infill densities × 5 environments</text>
+
+  <g font-size="14">
+    <rect x="30" y="70" width="230" height="200" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+    <text x="145" y="98" text-anchor="middle" font-weight="600" fill="#1e3a8a">Material</text>
+    <rect x="55" y="118" width="180" height="50" rx="8" fill="#2563eb"/>
+    <text x="145" y="148" text-anchor="middle" fill="#ffffff">Virgin PLA</text>
+    <rect x="55" y="184" width="180" height="50" rx="8" fill="#ea580c"/>
+    <text x="145" y="214" text-anchor="middle" fill="#ffffff">Recycled PLA (rPLA)</text>
+
+    <text x="282" y="178" font-size="26" fill="#6b7280">×</text>
+
+    <rect x="320" y="70" width="230" height="200" rx="10" fill="#f0fdf4" stroke="#16a34a"/>
+    <text x="435" y="98" text-anchor="middle" font-weight="600" fill="#14532d">Gyroid infill</text>
+    <rect x="345" y="114" width="180" height="40" rx="8" fill="#bbf7d0"/>
+    <text x="435" y="139" text-anchor="middle" fill="#14532d">15 % (saving)</text>
+    <rect x="345" y="164" width="180" height="40" rx="8" fill="#4ade80"/>
+    <text x="435" y="189" text-anchor="middle" fill="#14532d">30 % (baseline)</text>
+    <rect x="345" y="214" width="180" height="40" rx="8" fill="#16a34a"/>
+    <text x="435" y="239" text-anchor="middle" fill="#ffffff">60 % (reinforced)</text>
+
+    <text x="572" y="178" font-size="26" fill="#6b7280">×</text>
+
+    <rect x="610" y="70" width="260" height="200" rx="10" fill="#faf5ff" stroke="#7c3aed"/>
+    <text x="740" y="98" text-anchor="middle" font-weight="600" fill="#4c1d95">Environment</text>
+    <g fill="#4c1d95" font-size="13">
+      <text x="632" y="128">• dry (reference)</text>
+      <text x="632" y="155">• distilled water, 168 h</text>
+      <text x="632" y="182">• salt solution, 168 h</text>
+      <text x="632" y="209">• freeze and thaw, 30+ cycles</text>
+      <text x="632" y="236">• UV exposure (UVB lamp), 14 days</text>
+    </g>
+  </g>
+  <text x="30" y="304" font-size="13" fill="#374151">n = 10 bars per group, about 300 printed bars in total. Same printer, slicer profile and manufacturer for both filaments.</text>
+</svg>

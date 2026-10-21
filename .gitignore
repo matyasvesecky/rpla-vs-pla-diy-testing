@@ -1,0 +1,14 @@
+# measured data stay private until the thesis defense
+software/data/
+data/
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
